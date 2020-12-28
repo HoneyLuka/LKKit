@@ -25,6 +25,7 @@ FOUNDATION_EXPORT const unsigned char LKKitVersionString[];
 #import <LKKit/PHAsset+LKKit.h>
 #import <LKKit/UIImage+LKKit.h>
 #import <LKKit/UIView+LKKit.h>
+#import <LKKit/NSString+LKKit.h>
 
 #import <LKKit/LKDeviceHelper.h>
 #import <LKKit/LKAlertHelper.h>
