@@ -1,0 +1,34 @@
+PODS:
+  - LKFoundation (0.1.0)
+  - LKKit (0.1.0):
+    - LKFoundation
+    - SVProgressHUD
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - LKFoundation (from `https://github.com/HoneyLuka/LKFoundation`)
+  - LKKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  LKFoundation:
+    :git: https://github.com/HoneyLuka/LKFoundation
+  LKKit:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  LKFoundation:
+    :commit: 0a515bbe6509f3a22ce0b39091edaffb83e7bdb9
+    :git: https://github.com/HoneyLuka/LKFoundation
+
+SPEC CHECKSUMS:
+  LKFoundation: 30ef629d95782c697f9e29ee3d5bb221337c833c
+  LKKit: 46fc755ff5543cdb43020a5de4c834dfe015b03e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 282ceed12bfcde4447740af7137339b2e5b5c642
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'LKKit_Example' do
+  pod 'LKKit', :path => '../'
+  pod 'LKFoundation', :git => 'https://github.com/HoneyLuka/LKFoundation'
+
+  target 'LKKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
