@@ -2,7 +2,9 @@ PODS:
   - LKFoundation (0.1.0)
   - LKKit (0.1.0):
     - LKFoundation
+    - Masonry
     - SVProgressHUD
+  - Masonry (1.1.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -11,6 +13,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Masonry
     - SVProgressHUD
 
 EXTERNAL SOURCES:
@@ -26,7 +29,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   LKFoundation: 30ef629d95782c697f9e29ee3d5bb221337c833c
-  LKKit: 46fc755ff5543cdb43020a5de4c834dfe015b03e
+  LKKit: 3b14f84f4714da65dfc639ef3f83e54f4b3feb6a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 282ceed12bfcde4447740af7137339b2e5b5c642
