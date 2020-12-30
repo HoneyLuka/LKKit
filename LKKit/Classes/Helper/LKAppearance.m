@@ -152,6 +152,10 @@ NSString * const LKAppearanceDarkKey = @"dark";
         data = [self loadDataFromBundle];
     }
     
+    if (!data.length) {
+        return;
+    }
+    
     NSError *error;
     NSDictionary *root = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:&error];
     if (error) {
