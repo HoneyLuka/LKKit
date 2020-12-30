@@ -16,6 +16,9 @@
 
 #define LK_DEGREES_TO_RADIANS(degrees) ((degrees) / 180.0 * M_PI)
 
+#define LKKitLogError(fmt, ...) LKLogError(@"LKKit", nil, fmt, ##__VA_ARGS__)
+#define LKKitLogWarning(fmt, ...) LKLogWarning(@"LKKit", nil, fmt, ##__VA_ARGS__)
+
 #pragma mark - Blocks
 
 typedef void(^LKUIImageBlock)(UIImage *);

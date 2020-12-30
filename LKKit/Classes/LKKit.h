@@ -29,6 +29,7 @@ FOUNDATION_EXPORT const unsigned char LKKitVersionString[];
 
 #import <LKKit/LKDeviceHelper.h>
 #import <LKKit/LKAlertHelper.h>
+#import <LKKit/LKAppearance.h>
 
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <Masonry/Masonry.h>
